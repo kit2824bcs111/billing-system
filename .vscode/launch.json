@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run BillingSystem",
+            "request": "launch",
+            "mainClass": "BillingSystem",
+            "classPaths": ["${workspaceFolder}/out", "${workspaceFolder}/lib/mysql-connector-j.jar"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
